@@ -12,11 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let nums: [Int] = [1,1]
-        print(partitionDisjoint(nums))
     }
-     
 }
 
 

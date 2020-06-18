@@ -23,19 +23,19 @@ class Test915: UIViewController {
         var maxLeft = [Int](repeating: 0, count: count)
         var minRight = [Int](repeating: 0, count: count)
         
-        var firtstLeft = A[0]
+        var firstLeft = A[0]
         var leftIndex = 0
         while leftIndex < count {
-            firtstLeft = max(firtstLeft, A[leftIndex])
-            maxLeft[leftIndex] = firtstLeft
+            firstLeft = max(firstLeft, A[leftIndex])
+            maxLeft[leftIndex] = firstLeft
             leftIndex = leftIndex + 1
         }
         
-        var firtstRight = A[count-1]
+        var firstRight = A[count-1]
         var rightIndex = count-1
         while rightIndex > 0 {
-            firtstRight = min(firtstRight, A[rightIndex])
-            minRight[rightIndex] = firtstRight
+            firstRight = min(firstRight, A[rightIndex])
+            minRight[rightIndex] = firstRight
             rightIndex = rightIndex - 1
         }
         
