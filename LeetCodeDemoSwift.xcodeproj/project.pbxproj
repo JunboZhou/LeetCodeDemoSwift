@@ -16,6 +16,7 @@
 		C435A05424978EA400F23890 /* LeetCodeDemoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C435A05324978EA400F23890 /* LeetCodeDemoSwiftTests.swift */; };
 		C435A06224978EEF00F23890 /* 912. 排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = C435A06024978EEF00F23890 /* 912. 排序数组.swift */; };
 		C435A06324978EEF00F23890 /* 1338. 数组大小减半.swift in Sources */ = {isa = PBXBuildFile; fileRef = C435A06124978EEF00F23890 /* 1338. 数组大小减半.swift */; };
+		C43A4229249B189B003C25DE /* 915. 分割数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43A4228249B189B003C25DE /* 915. 分割数组.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		C435A05524978EA400F23890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C435A06024978EEF00F23890 /* 912. 排序数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "912. 排序数组.swift"; sourceTree = "<group>"; };
 		C435A06124978EEF00F23890 /* 1338. 数组大小减半.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1338. 数组大小减半.swift"; sourceTree = "<group>"; };
+		C43A4228249B189B003C25DE /* 915. 分割数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "915. 分割数组.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				C435A06024978EEF00F23890 /* 912. 排序数组.swift */,
+				C43A4228249B189B003C25DE /* 915. 分割数组.swift */,
 				C435A06124978EEF00F23890 /* 1338. 数组大小减半.swift */,
 			);
 			path = "01-动态数组";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C435A04124978E9F00F23890 /* ViewController.swift in Sources */,
+				C43A4229249B189B003C25DE /* 915. 分割数组.swift in Sources */,
 				C435A06224978EEF00F23890 /* 912. 排序数组.swift in Sources */,
 				C435A03D24978E9F00F23890 /* AppDelegate.swift in Sources */,
 				C435A03F24978E9F00F23890 /* SceneDelegate.swift in Sources */,
