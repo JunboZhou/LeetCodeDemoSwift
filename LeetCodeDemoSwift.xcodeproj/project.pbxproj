@@ -17,6 +17,7 @@
 		C435A06224978EEF00F23890 /* 912. 排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = C435A06024978EEF00F23890 /* 912. 排序数组.swift */; };
 		C435A06324978EEF00F23890 /* 1338. 数组大小减半.swift in Sources */ = {isa = PBXBuildFile; fileRef = C435A06124978EEF00F23890 /* 1338. 数组大小减半.swift */; };
 		C43A4229249B189B003C25DE /* 915. 分割数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43A4228249B189B003C25DE /* 915. 分割数组.swift */; };
+		C4D6496024A88B4F006D4371 /* 07.整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D6495F24A88B4F006D4371 /* 07.整数反转.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C435A06024978EEF00F23890 /* 912. 排序数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "912. 排序数组.swift"; sourceTree = "<group>"; };
 		C435A06124978EEF00F23890 /* 1338. 数组大小减半.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1338. 数组大小减半.swift"; sourceTree = "<group>"; };
 		C43A4228249B189B003C25DE /* 915. 分割数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "915. 分割数组.swift"; sourceTree = "<group>"; };
+		C4D6495F24A88B4F006D4371 /* 07.整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "07.整数反转.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		C435A05E24978EBF00F23890 /* 数据结构算法 */ = {
 			isa = PBXGroup;
 			children = (
+				C4D6495E24A88B19006D4371 /* 02-排序 */,
 				C435A05F24978EEF00F23890 /* 01-动态数组 */,
 			);
 			path = "数据结构算法";
@@ -122,6 +125,14 @@
 				C435A06124978EEF00F23890 /* 1338. 数组大小减半.swift */,
 			);
 			path = "01-动态数组";
+			sourceTree = "<group>";
+		};
+		C4D6495E24A88B19006D4371 /* 02-排序 */ = {
+			isa = PBXGroup;
+			children = (
+				C4D6495F24A88B4F006D4371 /* 07.整数反转.swift */,
+			);
+			path = "02-排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 			files = (
 				C435A04124978E9F00F23890 /* ViewController.swift in Sources */,
 				C43A4229249B189B003C25DE /* 915. 分割数组.swift in Sources */,
+				C4D6496024A88B4F006D4371 /* 07.整数反转.swift in Sources */,
 				C435A06224978EEF00F23890 /* 912. 排序数组.swift in Sources */,
 				C435A03D24978E9F00F23890 /* AppDelegate.swift in Sources */,
 				C435A03F24978E9F00F23890 /* SceneDelegate.swift in Sources */,
