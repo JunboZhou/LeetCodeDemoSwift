@@ -19,6 +19,7 @@
 		C435A06224978EEF00F23890 /* 912. 排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = C435A06024978EEF00F23890 /* 912. 排序数组.swift */; };
 		C435A06324978EEF00F23890 /* 1338. 数组大小减半.swift in Sources */ = {isa = PBXBuildFile; fileRef = C435A06124978EEF00F23890 /* 1338. 数组大小减半.swift */; };
 		C43A4229249B189B003C25DE /* 915. 分割数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43A4228249B189B003C25DE /* 915. 分割数组.swift */; };
+		C44C04A824B4952C004B2BA9 /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C04A724B4952C004B2BA9 /* 203.移除链表元素.swift */; };
 		C457837224B309E6006AC528 /* 206.反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457837124B309E6006AC528 /* 206.反转链表.swift */; };
 		C457837424B315C3006AC528 /* 141.环形链表 .swift in Sources */ = {isa = PBXBuildFile; fileRef = C457837324B315C3006AC528 /* 141.环形链表 .swift */; };
 		C4D6496024A88B4F006D4371 /* 07.整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D6495F24A88B4F006D4371 /* 07.整数反转.swift */; };
@@ -51,6 +52,7 @@
 		C435A06024978EEF00F23890 /* 912. 排序数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "912. 排序数组.swift"; sourceTree = "<group>"; };
 		C435A06124978EEF00F23890 /* 1338. 数组大小减半.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1338. 数组大小减半.swift"; sourceTree = "<group>"; };
 		C43A4228249B189B003C25DE /* 915. 分割数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "915. 分割数组.swift"; sourceTree = "<group>"; };
+		C44C04A724B4952C004B2BA9 /* 203.移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
 		C457837124B309E6006AC528 /* 206.反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "206.反转链表.swift"; path = "LeetCodeDemoSwift/数据结构算法/206.反转链表.swift"; sourceTree = SOURCE_ROOT; };
 		C457837324B315C3006AC528 /* 141.环形链表 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141.环形链表 .swift"; sourceTree = "<group>"; };
 		C4D6495F24A88B4F006D4371 /* 07.整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "07.整数反转.swift"; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				C418698F24AF07C200C65E17 /* 237.删除链表中的节点.swift */,
 				C457837124B309E6006AC528 /* 206.反转链表.swift */,
 				C457837324B315C3006AC528 /* 141.环形链表 .swift */,
+				C44C04A724B4952C004B2BA9 /* 203.移除链表元素.swift */,
 			);
 			path = "03-链表";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				C4D6496024A88B4F006D4371 /* 07.整数反转.swift in Sources */,
 				C457837424B315C3006AC528 /* 141.环形链表 .swift in Sources */,
 				C435A06224978EEF00F23890 /* 912. 排序数组.swift in Sources */,
+				C44C04A824B4952C004B2BA9 /* 203.移除链表元素.swift in Sources */,
 				C435A03D24978E9F00F23890 /* AppDelegate.swift in Sources */,
 				C418699024AF07C200C65E17 /* 237.删除链表中的节点.swift in Sources */,
 				C418699324AF09B400C65E17 /* SingleLinkList.swift in Sources */,
