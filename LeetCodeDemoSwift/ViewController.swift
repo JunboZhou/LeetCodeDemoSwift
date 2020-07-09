@@ -13,10 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let test = "()";
+        print(isValid(test));
+        
+        
     
     }
     
-
 
 }
 
