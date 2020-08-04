@@ -26,6 +26,8 @@
 		C45D759824C99632007BECAF /* _226_反转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D759724C99632007BECAF /* _226_反转二叉树.swift */; };
 		C4648F0B24B8059200324CB9 /* _232_用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4648F0A24B8059200324CB9 /* _232_用栈实现队列.swift */; };
 		C4D6496024A88B4F006D4371 /* 07.整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D6495F24A88B4F006D4371 /* 07.整数反转.swift */; };
+		C4FB004924D953B5003F3312 /* 110.平衡二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FB004824D953B5003F3312 /* 110.平衡二叉树.swift */; };
+		C4FB004B24D961B4003F3312 /* 54.二叉搜索树的第k大节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FB004A24D961B4003F3312 /* 54.二叉搜索树的第k大节点.swift */; };
 		C4FDC7FB24B55A2900717205 /* 83.删除排序链表中的重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FDC7FA24B55A2900717205 /* 83.删除排序链表中的重复元素.swift */; };
 		C4FDC7FD24B55B5B00717205 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FDC7FC24B55B5B00717205 /* ListNode.swift */; };
 		C4FDC7FF24B5664800717205 /* 876.链表的中间结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FDC7FE24B5664800717205 /* 876.链表的中间结点.swift */; };
@@ -65,6 +67,8 @@
 		C45D759724C99632007BECAF /* _226_反转二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_226_反转二叉树.swift"; sourceTree = "<group>"; };
 		C4648F0A24B8059200324CB9 /* _232_用栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_232_用栈实现队列.swift"; sourceTree = "<group>"; };
 		C4D6495F24A88B4F006D4371 /* 07.整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "07.整数反转.swift"; sourceTree = "<group>"; };
+		C4FB004824D953B5003F3312 /* 110.平衡二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "110.平衡二叉树.swift"; sourceTree = "<group>"; };
+		C4FB004A24D961B4003F3312 /* 54.二叉搜索树的第k大节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "54.二叉搜索树的第k大节点.swift"; sourceTree = "<group>"; };
 		C4FDC7FA24B55A2900717205 /* 83.删除排序链表中的重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "83.删除排序链表中的重复元素.swift"; sourceTree = "<group>"; };
 		C4FDC7FC24B55B5B00717205 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		C4FDC7FE24B5664800717205 /* 876.链表的中间结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "876.链表的中间结点.swift"; sourceTree = "<group>"; };
@@ -170,6 +174,7 @@
 				C40F8DB024B6B62B0055A552 /* 04-栈 */,
 				C4648F0924B7FA3700324CB9 /* 05-队列 */,
 				C45D759624C995FC007BECAF /* 06-二叉搜索树 */,
+				C4FB004624D95361003F3312 /* 07-AVL树 */,
 			);
 			path = "数据结构算法";
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				C45D759724C99632007BECAF /* _226_反转二叉树.swift */,
+				C4FB004A24D961B4003F3312 /* 54.二叉搜索树的第k大节点.swift */,
 			);
 			path = "06-二叉搜索树";
 			sourceTree = "<group>";
@@ -206,6 +212,14 @@
 				C4D6495F24A88B4F006D4371 /* 07.整数反转.swift */,
 			);
 			path = "02-排序";
+			sourceTree = "<group>";
+		};
+		C4FB004624D95361003F3312 /* 07-AVL树 */ = {
+			isa = PBXGroup;
+			children = (
+				C4FB004824D953B5003F3312 /* 110.平衡二叉树.swift */,
+			);
+			path = "07-AVL树";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +326,7 @@
 				C45D759824C99632007BECAF /* _226_反转二叉树.swift in Sources */,
 				C435A04124978E9F00F23890 /* ViewController.swift in Sources */,
 				C40F8DB224B6B6770055A552 /* 20.有效的括号.swift in Sources */,
+				C4FB004B24D961B4003F3312 /* 54.二叉搜索树的第k大节点.swift in Sources */,
 				C4648F0B24B8059200324CB9 /* _232_用栈实现队列.swift in Sources */,
 				C43A4229249B189B003C25DE /* 915. 分割数组.swift in Sources */,
 				C4FDC7FF24B5664800717205 /* 876.链表的中间结点.swift in Sources */,
@@ -319,6 +334,7 @@
 				C4D6496024A88B4F006D4371 /* 07.整数反转.swift in Sources */,
 				C457837424B315C3006AC528 /* 141.环形链表 .swift in Sources */,
 				C435A06224978EEF00F23890 /* 912. 排序数组.swift in Sources */,
+				C4FB004924D953B5003F3312 /* 110.平衡二叉树.swift in Sources */,
 				C4FDC7FB24B55A2900717205 /* 83.删除排序链表中的重复元素.swift in Sources */,
 				C4FDC7FD24B55B5B00717205 /* ListNode.swift in Sources */,
 				C44C04A824B4952C004B2BA9 /* 203.移除链表元素.swift in Sources */,

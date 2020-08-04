@@ -10,47 +10,47 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    fileprivate lazy var arrayList = [TreeNode]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
     }
     
-    func invertTree(_ root: TreeNode?) -> TreeNode? {
-        
-        if root == nil { return root }
-        
-        var queue = [TreeNode]();
-        queue.append(root!);
-        while !queue.isEmpty {
-            let node = queue.popLast()
-            
-            let temp = node?.left
-            node?.left = node?.right
-            node?.right = temp
-            
-            if node?.left != nil {
-                queue.append((node?.left)!)
-            }
-            if node?.right != nil {
-                queue.append((node?.right)!)
-            }
+    func kthLargest(_ root: TreeNode?, _ k: Int) -> Int {
+        if k == 0 || root == nil {
+            return -1;
         }
-        return root
+        inorder(root)
+        let node = arrayList[k - 1];
+        return node.val
     }
-
-}
-
-public class TreeNode {
-    public var val: Int
-    public var left: TreeNode?
-    public var right: TreeNode?
     
-    init(_ val: Int) {
-        self.val = val
-        self.left = nil
-        self.right = nil
+    func inorder(_ root: TreeNode?) {
+        if root == nil {
+            return
+        }
+        inorder(root?.right)
+        arrayList.append((root?.right)!)
+        inorder(root?.left)
     }
+    
+    
+    public class TreeNode {
+        public var val: Int
+        public var left: TreeNode?
+        public var right: TreeNode?
+        
+        init(_ val: Int) {
+            self.val = val
+            self.left = nil
+            self.right = nil
+        }
+    }
+    
+
 }
+
 
 
 
